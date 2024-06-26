@@ -1,4 +1,4 @@
-# weather_app
+
 # Weather App
 
 A simple weather application built with Flutter that allows users to view weather details for their location. The app uses Material 3 design and a dark theme to provide a modern and user-friendly interface.
@@ -16,7 +16,7 @@ A simple weather application built with Flutter that allows users to view weathe
 ![Screenshot 2](https://github.com/ak0586/weather_forecast_app/assets/64912402/484ebcd0-7930-43a3-a5f8-de71b9925c41)
 
 
-## Getting Started
+### Getting Started
 
 To get a local copy up and running, follow these steps.
 
@@ -39,15 +39,16 @@ To get a local copy up and running, follow these steps.
 4.  Run the app:
     ```sh
       flutter run
-#Usage
+### Usage
   Open the app to see the current weather information.
   Enter a location in the text field to get weather details for that location.
       
-##Code Overview
-#Main Entry Point
+## Code Overview
+# Main Entry Point
 The '**main.dart**' file is the entry point of the application. It sets up the '**MyApp**' widget, which in turn sets up the '**MaterialApp**' and the home screen.
 
 **code:**
+```dart
 import 'package:flutter/material.dart';
 import 'package:weather_app/weather_material_scaffold_app.dart';
 
@@ -70,10 +71,12 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+```
 
-#Weather Screen
+# Weather Screen
 The '**MyWeatherApp**' widget is responsible for displaying the weather information. It includes a '**SingleChildScrollView**' to prevent overflow issues and a '**SafeArea**' to avoid system UI overlaps.
 **Code:**
+```dart
 class MyWeatherApp extends StatelessWidget {
   const MyWeatherApp({super.key});
 
@@ -105,8 +108,9 @@ class MyWeatherApp extends StatelessWidget {
     );
   }
 }
+```
 
-#Contact
+# Contact
 Ankit Kumar - ankitkumar81919895@gmail.com
 
 Project Link: https://github.com/your-username/weather_app
