@@ -393,7 +393,7 @@ class _MyWeatherAppState extends State<MyWeatherApp> {
           // width: 100,
           child: Text(
             cityName,
-            style: const TextStyle(fontWeight: FontWeight.bold),
+            style:  TextStyle(fontWeight: FontWeight.bold,fontFamily: text),
           ),
         ),
       ],
